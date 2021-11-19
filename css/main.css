@@ -1,0 +1,40 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+	color: #f80404;
+    line-height: 80px;
+    text-shadow: 0 -1.64px 0.896px #0026ff, 0 -4px 1px #00ff00;
+    letter-spacing: 10px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bolder;
+    max-width: 40%;
+}
+
+ul {
+    width: 110px;
+    border-radius: 50px;
+}
+
+ol {
+    width: 160px;
+    border-radius: 50px;
+}
+
+ul, ol {
+    background-color: cyan;
+    background-clip: content-box;    
+}
+
+li {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+}
